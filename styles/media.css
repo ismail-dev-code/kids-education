@@ -1,0 +1,17 @@
+/* responsive for mobile device */
+@media screen and (max-width: 576px) {
+    body{
+        padding: 0px 16px;
+    }
+    .navbar h1, .nav-anchor li a, .navbar button{
+        display: none;
+        
+    }
+      .nav-logo img {
+        width: 46px;
+        height: 46px;
+      }
+    .fa-bars{
+        display: block;
+    }
+}
