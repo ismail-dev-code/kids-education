@@ -1,12 +1,20 @@
 /* responsive for mobile device */
 @media screen and (max-width: 576px) {
-  body {
-    padding: 0px 16px;
+  header{
+    padding: 0;
   }
   .navbar h1,
   .nav-anchor li a,
   .navbar button {
     display: none;
+    
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgb(254, 163, 1);
+    padding: 0px 16px 12px 16px;
+    
   }
   .nav-logo img {
     width: 46px;
@@ -16,6 +24,7 @@
     display: block;
   }
   .header-section {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,5 +60,23 @@
     line-height: 30px;
     letter-spacing: 0%;
     text-align: center;
+  }
+  .standard-card-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .standard h1{
+    padding: 40px 0px 20px 0px;
+  }
+  .standard-card h2 {
+    color: rgb(32, 32, 32);
+    font-size: 16.6px;
+    font-weight: 700;
+    line-height: 20.75px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 22px 0;
+    font-family: "Quicksand", serif;
   }
 }
