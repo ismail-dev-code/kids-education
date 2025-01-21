@@ -33,6 +33,15 @@
   background: rgb(254, 163, 1);
   border: none;
 }
+.btn-primary:hover{
+  cursor: pointer;
+  opacity: 0.8;
+}
+.story-btn:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 
 /* navbar related styles start  */
 header {
@@ -51,6 +60,11 @@ header {
   display: flex;
   align-items: center;
   gap: 15px;
+}
+.nav-logo h1:hover{
+  cursor: pointer;
+  opacity: 0.9;
+  transform: scale(1.2);
 }
 .nav-logo h1 {
   color: rgb(17, 17, 17);
@@ -101,7 +115,7 @@ header {
   margin-bottom: 24px;
 }
 .hero-img img {
-  width: 468.61px;
+  width: 468px;
   height: 575px;
 }
 .header-section button {
@@ -146,6 +160,13 @@ header {
       rgba(255, 255, 255, 0) 40%
     ),
     rgb(255, 255, 255);
+}
+.standard-card img:hover{
+  transform: scale(1.1);
+}
+.standard-card button:hover{
+  cursor: pointer;
+  transform: scale(1.3);
 }
 .standard-card h2 {
   color: rgb(32, 32, 32);
@@ -224,6 +245,10 @@ header {
   gap: 10px;
   padding: 80px 0px 60px 0px;
 }
+.fa-less-than:hover, .fa-greater-than:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
 .fa-less-than {
   display: flex;
   justify-content: center;
@@ -266,10 +291,9 @@ header {
   justify-content: center;
   align-items: top;
   gap: 19px;
-  padding-bottom: 190px;
+  padding-bottom: 80px;
 }
 .our-stories-title h2 {
-  /* margin-bottom: 60px; */
   color: rgb(0, 0, 0);
   font-family: "Quicksand", serif;
   font-size: 46px;
@@ -282,7 +306,6 @@ header {
 }
 .story-1 {
   width: 540px;
-  /* height: 630px; */
   border-radius: 16px;
   text-align: center;
   background: rgb(255, 255, 255);
@@ -338,6 +361,12 @@ header {
   border-radius: 16px;
   text-align: left;
   background: rgb(255, 255, 255);
+}
+.story-sub-card img:hover{
+  opacity: 0.9;
+}
+.story-1 img:hover{
+opacity: 0.9;
 }
 .story-sub-card img {
   border-radius: 16px 16px 0px 0px;
@@ -409,6 +438,13 @@ footer {
   width: 70px;
   height: 81px;
 }
+.logo-kids img:hover{
+opacity: 0.9;
+}
+.logo-kids h2:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
 .kids-edu p {
   font-size: 20px;
   font-weight: 400;
@@ -428,6 +464,10 @@ footer {
   letter-spacing: 0%;
   text-align: left;
 }
+.about-school h3:hover{
+  cursor: pointer;
+  color: orange;
+}
 .about-school ul li {
   list-style: none;
   padding: 10px;
@@ -437,6 +477,10 @@ footer {
   line-height: 25px;
   letter-spacing: 0%;
   text-align: left;
+}
+.about-school ul li:hover{
+  color: aqua;
+  cursor: pointer;
 }
 .social-details {
   display: flex;
@@ -452,6 +496,10 @@ footer {
   letter-spacing: 0%;
   text-align: left;
 }
+.social-details h3:hover{
+  cursor: pointer;
+  color: orange;
+}
 .social-links {
   display: flex;
   gap: 10px;
@@ -462,4 +510,8 @@ footer {
 .social-links img {
   width: 40.61px;
   height: 40px;
+}
+.social-links img:hover{
+  cursor: pointer;
+  transform: scale(1.3);
 }
