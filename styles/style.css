@@ -117,6 +117,12 @@ header {
 }
 .standard h1 {
   padding: 60px 0px 80px 0px;
+  color: rgb(0, 0, 0);
+  font-family: "Quicksand", serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 57.5px;
+  letter-spacing: 0%;
   text-align: center;
 }
 .standard-card-container {
@@ -212,3 +218,39 @@ header {
   line-height: 28.3px;
   letter-spacing: 0%;
 }
+.arrow{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 80px 0px 60px 0px;
+}
+.fa-less-than{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+  border-radius: 30px;
+  width: 60px;
+height: 60px;
+background: rgb(254, 163, 1);
+color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 900;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.fa-greater-than{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   border-radius: 30px;
+   width: 60px;
+ height: 60px;
+ background: rgb(254, 163, 1);
+ color: rgb(255, 255, 255);
+ font-size: 24px;
+ font-weight: 900;
+ line-height: 24px;
+ letter-spacing: 0%;
+ text-align: center;
+ }
