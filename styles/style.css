@@ -218,39 +218,159 @@ header {
   line-height: 28.3px;
   letter-spacing: 0%;
 }
-.arrow{
+.arrow {
   display: flex;
   justify-content: center;
   gap: 10px;
   padding: 80px 0px 60px 0px;
 }
-.fa-less-than{
- display: flex;
- justify-content: center;
- align-items: center;
-  border-radius: 30px;
-  width: 60px;
-height: 60px;
-background: rgb(254, 163, 1);
-color: rgb(255, 255, 255);
-font-size: 24px;
-font-weight: 900;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: center;
-}
-.fa-greater-than{
+.fa-less-than {
   display: flex;
   justify-content: center;
   align-items: center;
-   border-radius: 30px;
-   width: 60px;
- height: 60px;
- background: rgb(254, 163, 1);
- color: rgb(255, 255, 255);
- font-size: 24px;
- font-weight: 900;
- line-height: 24px;
- letter-spacing: 0%;
- text-align: center;
- }
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  background: rgb(254, 163, 1);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.fa-greater-than {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  background: rgb(254, 163, 1);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* our stories section start */
+.our-stories {
+  background: url("../assets/bg.png"),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  padding: 0px 140px;
+  margin: 0 auto;
+}
+.all-cards {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  gap: 19px;
+  padding-bottom: 190px;
+}
+.our-stories-title h2 {
+  /* margin-bottom: 60px; */
+  color: rgb(0, 0, 0);
+  font-family: "Quicksand", serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 57.5px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 60px;
+  padding-bottom: 80px;
+}
+.story-1 {
+  width: 540px;
+  height: 630px;
+  border-radius: 16px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+}
+.story-1 img {
+  border-radius: 16px 16px 0px 0px;
+  background: rgb(217, 217, 217);
+  width: 540px;
+  height: 337px;
+}
+.story-btn {
+  color: rgb(255, 255, 255);
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  border-radius: 47.93px;
+  padding: 10px 19px;
+  background: rgb(60, 216, 232);
+  border: none;
+  font-family: "Raleway", serif;
+}
+.story-1 button {
+  position: relative;
+  left: -145px;
+  top: -30px;
+}
+.story-1-details {
+  padding: 0px 68px 34px 38px;
+}
+.story-1-details h2 {
+  color: rgb(0, 0, 0);
+  font-family: "Quicksand", serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38.35px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 45px;
+}
+.story-1-details p {
+  /* margin-bottom: 34px; */
+  color: rgb(102, 102, 102);
+  font-family: "Raleway", serif;
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.story-sub-card {
+  width: 290.69px;
+  height: 301.61px;
+  border-radius: 16px;
+  text-align: left;
+  background: rgb(255, 255, 255);
+}
+.story-sub-card img {
+  border-radius: 16px 16px 0px 0px;
+
+  background: rgb(255, 255, 255);
+}
+.story-sub-card h3 {
+  color: rgb(0, 0, 0);
+  padding: 0px 54px 33px 37px;
+  font-size: 15.34px;
+  font-weight: 700;
+  line-height: 28.76px;
+  letter-spacing: 0%;
+  font-family: "Quicksand", serif;
+  text-align: left;
+  
+}
+.story-sub-card button {
+  position: relative;
+  left: 40px;
+  top: -30px;
+  background: rgb(149, 178, 38);
+}
+.sub-card-parent{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 19px;
+  
+}
+#btn-view{
+  
+  text-align: center;
+ padding-bottom: 60px;
+}
