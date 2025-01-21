@@ -167,28 +167,40 @@
     padding: 6px 11px;
     text-align: center;
   }
-  .story-sub-card h3{
+  .story-sub-card h3 {
     padding: 0px 42px 19px 22px;
     color: rgb(0, 0, 0);
-font-size: 9.13px;
-font-weight: 700;
-line-height: 17.12px;
-letter-spacing: 0%;
-text-align: left;
+    font-size: 9.13px;
+    font-weight: 700;
+    line-height: 17.12px;
+    letter-spacing: 0%;
+    text-align: left;
   }
-  .our-stories{
+  .our-stories {
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
-    
   }
-  .our-stories-title h2{
-   display: flex;
-   justify-content: center;
-  
-   
+  .our-stories-title h2 {
+    display: flex;
+    justify-content: center;
   }
+  .footer-content {
+    align-items: left;
+    flex-direction: column;
+    padding: 60px 20px;
+    text-align: left;
+    gap: 30px;
+  }
+  .about-school{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    }
+    .display-none{
+      display: block;
+    }
 }

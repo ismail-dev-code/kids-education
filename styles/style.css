@@ -282,7 +282,7 @@ header {
 }
 .story-1 {
   width: 540px;
-  height: 630px;
+  /* height: 630px; */
   border-radius: 16px;
   text-align: center;
   background: rgb(255, 255, 255);
@@ -325,7 +325,6 @@ header {
   margin-bottom: 45px;
 }
 .story-1-details p {
-  /* margin-bottom: 34px; */
   color: rgb(102, 102, 102);
   font-family: "Raleway", serif;
   font-size: 15.34px;
@@ -336,7 +335,6 @@ header {
 }
 .story-sub-card {
   width: 290.69px;
-  height: 301.61px;
   border-radius: 16px;
   text-align: left;
   background: rgb(255, 255, 255);
@@ -345,6 +343,9 @@ header {
   border-radius: 16px 16px 0px 0px;
 
   background: rgb(255, 255, 255);
+}
+.display-none {
+  display: none;
 }
 .story-sub-card h3 {
   color: rgb(0, 0, 0);
@@ -355,7 +356,6 @@ header {
   letter-spacing: 0%;
   font-family: "Quicksand", serif;
   text-align: left;
-  
 }
 .story-sub-card button {
   position: relative;
@@ -363,14 +363,103 @@ header {
   top: -30px;
   background: rgb(149, 178, 38);
 }
-.sub-card-parent{
+.sub-card-parent {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 19px;
-  
 }
-#btn-view{
-  
+#btn-view {
   text-align: center;
- padding-bottom: 60px;
+  padding-bottom: 60px;
+}
+
+/* footer styles start  */
+footer {
+  background-color: #01acfd;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: start;
+  padding: 120px 140px;
+  color: white;
+  text-align: left;
+}
+.kids-edu {
+  display: flex;
+  flex-direction: column;
+}
+.logo-kids {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+  margin-bottom: 35px;
+}
+.logo-kids h2 {
+  color: rgb(255, 255, 255);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.logo-kids img {
+  width: 70px;
+  height: 81px;
+}
+.kids-edu p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.about-school {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.about-school h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.about-school ul li {
+  list-style: none;
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.social-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: top;
+  gap: 32px;
+}
+.social-details h3 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.social-links {
+  display: flex;
+  gap: 10px;
+}
+.social-links li {
+  list-style: none;
+}
+.social-links img {
+  width: 40.61px;
+  height: 40px;
 }
