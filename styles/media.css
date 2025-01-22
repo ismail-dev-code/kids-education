@@ -27,12 +27,12 @@
     align-items: center;
     text-align: center;
     flex-direction: column-reverse;
+    padding: 0px 16px 0px 16px;
   }
   .header-section h1 {
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
-    letter-spacing: 0%;
     text-align: center;
     margin-bottom: 18px;
   }
@@ -46,8 +46,8 @@
     margin-bottom: 24px;
   }
   .hero-img img {
-    width: 336.58px;
-    height: 413px;
+    width: 100%;
+    height: 100%;
   }
   .header-section button {
     padding: 6px 24px;
@@ -62,6 +62,12 @@
   .standard-card-container {
     flex-direction: column;
     align-items: center;
+    padding: 0px 16px 0px 16px;
+  }
+
+  .standard-card {
+    width: 100%;
+    padding: 36px 20px;
   }
 
   .standard h1 {
@@ -75,13 +81,16 @@
   }
   .standard-card h2 {
     color: rgb(32, 32, 32);
-    font-size: 16.6px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 20.75px;
-    letter-spacing: 0%;
-    text-align: center;
+    line-height: 20px;
     margin: 22px 0;
     font-family: "Quicksand", serif;
+  }
+  .standard-card p {
+    font-size: 10px;
+    line-height: 19px;
+    margin-bottom: 22px;
   }
   .arrow {
     display: none;
@@ -93,41 +102,39 @@
 
   .story-sub-card {
     width: 173px;
-    height: 189px;
     border-radius: 9px;
     text-align: left;
     background: rgb(255, 255, 255);
   }
   .story-sub-card img {
     border-radius: 9px 9px 0px 0px;
-    width: 173px;
+    width: 100%;
     height: 105px;
     background: rgb(255, 255, 255);
   }
   .story-sub-card h3 {
+    margin-top: 0px;
     color: rgb(0, 0, 0);
-
     font-size: 9px;
     font-weight: 700;
     line-height: 17px;
-    letter-spacing: 0%;
-    font-family: "Quicksand", serif;
-    text-align: left;
+    padding: 0px 0px 33px 37px;
   }
   .story-sub-card button {
     position: relative;
     left: 30px;
-    top: -15px;
+    top: -20px;
     width: 106px;
-    height: 22px;
+
     border-radius: 28px;
-    text-align: center;
+    text-wrap: nowrap;
     background: rgb(149, 178, 38);
     color: rgb(255, 255, 255);
     font-size: 9px;
     font-weight: 500;
     line-height: 17.12px;
     letter-spacing: 0%;
+    text-align: center;
   }
   .story-btn {
     color: rgb(255, 255, 255);
@@ -144,6 +151,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    padding: 0px 16px 0px 16px;
   }
   .our-stories-title h2 {
     display: flex;
@@ -187,6 +195,7 @@
   .our-stories-title h2 {
     display: flex;
     justify-content: center;
+    font-size: 26px;
   }
   .footer-content {
     align-items: left;
@@ -195,12 +204,27 @@
     text-align: left;
     gap: 30px;
   }
-  .about-school{
+  .about-school {
     display: flex;
     justify-content: left;
     align-items: left;
-    }
-    .display-none{
-      display: block;
-    }
+  }
+  .display-none {
+    display: block;
+  }
+  .logo-kids img {
+    width: 58.74px;
+    height: 69.23px;
+  }
+  .logo-kids h2 {
+    font-size: 35px;
+    line-height: 33px;
+  }
+  .kids-edu p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 100%;
+    text-align: justify;
+  }
 }
